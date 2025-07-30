@@ -12,7 +12,7 @@ const Home = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Heart className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold">mio aiuto per te</span>
+              <span className="text-xl font-bold">Hugify</span>
             </div>
             <div className="hidden md:flex items-center gap-6">
               <Link to="/gruppi" className="text-muted-foreground hover:text-primary transition-colors">Gruppi</Link>

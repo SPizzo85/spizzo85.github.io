@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/mio-aiuto-per-te-web/",  // 👈 AGGIUNTA QUESTA RIGA
+  base: "", // ✅ IMPORTANTE: vuoto per GitHub Pages root (https://spizzo85.github.io)
   server: {
     host: "::",
     port: 8080,
